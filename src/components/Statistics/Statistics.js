@@ -13,7 +13,7 @@ const Statistics = () => {
                 console.log(response.data);
                 const data = response.data;
                 setUsers(data.data);
-            });
+            }); 
     };
 
     useEffect(() => getUsers(), []);
