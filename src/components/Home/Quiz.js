@@ -22,8 +22,8 @@ const Quiz = () => {
             <h1>
                 Quiz...
             </h1>
-             {quotes.map((quote)=> (
-                <li>Quote: <strong>{quote.text}</strong> - Author: {quote.author}</li>
+             {quotes.map((quote, i)=> (
+                <li>Quote: <strong>{quote.text}</strong> - Author: {quote.author} -n: {i}</li>
             ))}
             <li>
 
